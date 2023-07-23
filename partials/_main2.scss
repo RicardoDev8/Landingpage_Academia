@@ -1,0 +1,179 @@
+
+.our-plans{
+    width: 100%;
+    height: 657px;
+    padding: 35px;
+    background-color: $dark-gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-plans{
+    color: $white;
+    font-size: 82px;
+    font-family: 'bebas neue', sans-serif;
+    padding: 40px;
+}
+
+.box-our-plans{
+    display: flex;
+    gap: 10px;
+}
+
+.box-our-plans1{
+    width: 399px;
+    height: 362px;
+}
+
+.information{
+    width: 398px;
+    height: 40px;
+    font-size: 18px;
+    font-family: 'bebe neue', sans-serif;
+    background-color: $red;
+    text-align: center;
+    padding: 10px;
+    color: $white;
+}
+
+.box-our-plans2{
+    width: 399px;
+    height: 322px;
+}
+.box-our-plans3{
+    width: 399px;
+    height: 362px;
+}
+
+
+
+
+.box-our-plans1 img{
+    width: 395px;
+    height: 168px;
+    overflow: hidden;
+    margin-top: 40px;
+}
+.box-our-plans1 h4{
+    color: $white;
+    font-size: 32px;
+    padding: 15px;
+    font-family: 'bebe neue', sans-serif;
+}
+.box-our-plans1 .description{
+    background-color: $gray;
+    height: 83px;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+.plans1-p1{
+    font-size: 24px;
+    text-align: start;
+    color: $light_gray;
+}
+.plans1-p2{
+    width: 136px;
+    height: 50px;
+    font-size: 18px;
+    color: $light_gray;
+    border: 1px solid $light_gray;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight:bolder;
+}
+
+
+
+
+.box-our-plans2 img{
+    width: 395px;
+    height: 168px;
+    overflow: hidden;
+    
+}
+.box-our-plans2 h4{
+    color: $white;
+    background-color: $red;
+    font-size: 32px;
+    padding: 15px;
+    font-family: 'bebe neue', sans-serif;
+}
+.box-our-plans2 .description2{
+    background-color: $gray;
+    height: 83px;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+.plans2-p1{
+    font-size: 24px;
+    text-align: start;
+    color: $light_gray;
+}
+.plans2-p2{
+    width: 136px;
+    height: 50px;
+    font-size: 18px;
+    color: $red;
+    border: 1px solid $red;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight:bolder;
+}
+
+
+
+.box-our-plans3 img{
+    width: 395px;
+    height: 168px;
+    overflow: hidden;
+    margin-top: 40px;
+}
+.box-our-plans3 h4{
+    color: $white;
+    font-size: 32px;
+    padding: 15px;
+    font-family: 'bebe neue', sans-serif;
+}
+.box-our-plans3 .description3{
+    background-color: $gray;
+    height: 83px;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+.plans3-p1{
+    font-size: 24px;
+    text-align: start;
+    color: $light_gray;
+}
+.plans3-p2{
+    width: 136px;
+    height: 50px;
+    font-size: 18px;
+    color: $light_gray;
+    border: 1px solid $light_gray;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight:bolder;
+}
+
+
+@media screen and (max-width:768px){
+    
+    .our-plans{
+        height: 100%;
+    }
+    .box-our-plans{
+        flex-direction: column;
+        height: auto;
+    }
+    .title-plans{
+        font-size: 62px;
+        padding: 30px;
+    }
+    
+}
