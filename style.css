@@ -118,12 +118,12 @@
     display: none;
   }
   .title-one {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     display: inline;
   }
   .title-two {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     display: inline;
   }
@@ -583,7 +583,6 @@
   }
   .box-our-plans {
     flex-direction: column;
-    height: auto;
   }
   .title-plans {
     font-size: 62px;
@@ -783,16 +782,23 @@
     flex-direction: column-reverse;
   }
   .title-family1 {
-    font-size: 55px;
+    font-size: 45px;
     display: inline-block;
   }
   .title-family1 div {
-    font-size: 72px;
+    font-size: 62px;
     display: inline-block;
   }
   .our-family img {
     width: 300px;
     height: 300px;
+  }
+  .numbers-family h2 {
+    font-size: 40px;
+  }
+  .numbers-family-description {
+    text-align: center;
+    font-size: 15px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -801,8 +807,15 @@
     height: 500px;
     flex-direction: column;
   }
+  .buttons-contact {
+    display: none;
+  }
+  .btn-contact3 {
+    display: flex;
+    justify-content: center;
+  }
   .contact-itens h2 {
-    font-size: 62px;
+    font-size: 52px;
     text-align: center;
   }
   .contact-itens p {
